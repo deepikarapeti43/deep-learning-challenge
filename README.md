@@ -18,11 +18,12 @@ What steps did you take in your attempts to increase model performance?
 
 Three different attempts were made to optimize the model:
 
-Attempt #1 In this attempt, couple of different alterations were made to model. Two more variables were dropped ('STATUS' and 'SPECIAL_CONSIDERATION'), binning structures of 'APPLICATION_TYPE' and 'CLASSIFICATION' variables have been changed, a new hidden layer was added with 60 neurons. After all these changes, accuracy level stayed same (73%) while loss level increase (58%).
+Attempt #1 In this attempt, couple of different alterations were made to model. After all these changes, accuracy level stayed same (73%) while loss level increase (58%).
 
-Attempt #2 In this attempt, number of epoches was increased to 150 from 100.The new hidden layer that was added in attempt 1 stayed same. After change in the epoch numbers, the accuracy level stayed same (73%) while loss level increase (58%).
+Attempt #2 In this attempt, number of epoches was increased.The new hidden layer that was added in attempt 1 stayed same. After change in the epoch numbers, the accuracy level stayed same (73%) while loss level increase (58%).
 
-Attempt #3 Last attempt was made by adding two more dense layers to original model. This new model has 73% accuracy and 58% loss.
+Attempt #3 Last attempt was made by adding two more dense layers to original model. This new model has 63% accuracy and 58% loss.
+
 
 Summary:
 None of three optimization attempts had acieved increase in accuracy, instead they were cause to increase in loss. Since there are a lot of categorical data in our dataset, may be trying decision tree or random forrest methods will work better.
