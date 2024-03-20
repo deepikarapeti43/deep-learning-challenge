@@ -12,7 +12,7 @@ How many neurons, layers, and activation functions did you select for your neura
 Initially started off with 2 layers and with neuron count was 30 since accuracy score not reaching 75% increased the layers and neurons
 
 Were you able to achieve the target model performance?
-My model reached accuracy score of 73% in 2nd attempt if I increase layers and neurons accuracy score will improve
+My model reached accuracy score of 73% in 2nd and 3rd attempt if I increase layers and neurons accuracy score will improve
 
 What steps did you take in your attempts to increase model performance?
 I have increased layers and neurons to increase model performance
