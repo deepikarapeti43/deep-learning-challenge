@@ -12,7 +12,7 @@ How many neurons, layers, and activation functions did you select for your neura
 Main neural network model has contained two hidden layers with 80 and 30 neurons respectively. The hidden layes used "relu"activation function while the output layer used 'sigmoid'activation function. In this analysis, the epochs number was 100.
 
 Were you able to achieve the target model performance?
-The original neural network model could not achieve the target model performance which is 75%. The accuracy of this model was approximately 73% and the loss was 56%.
+The original neural network model could not achieve the target model performance which is 75%. The accuracy of this model was approximately 53% and the loss was 63%.
 
 What steps did you take in your attempts to increase model performance?
 
